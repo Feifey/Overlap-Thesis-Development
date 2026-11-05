@@ -191,3 +191,5 @@ html, body { overflow-x: clip; }
 @media (max-width: 760px) { .diagram { overflow-x: auto; -webkit-overflow-scrolling: touch; } .diagram svg { min-width: 760px; } .diagram::after { content: "Scroll sideways to see the whole diagram →"; display: block; font-size: 13px; color: var(--mu); margin-top: 12px; } }
 .logo { display: inline-flex; align-items: center; gap: 14px; }
 .logo .mark { width: 46px; height: 32px; flex: none; }
+.mock svg { width: 100%; height: auto; }
+.mock figcaption { font-size: 14px; color: var(--mu); margin-top: 14px; }
