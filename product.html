@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Product · Overlap</title>
-<meta name="description" content="My chats and the team map.">
+<meta name="description" content="The branch map and the team map.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;900&display=swap" rel="stylesheet">
@@ -14,11 +14,11 @@
 <body>
 <header class="site-header">
   <div class="wrap">
-    <a class="logo" href="index.html">OVERLAP</a>
+    <a class="logo" href="index.html" aria-label="Overlap home"><svg class="mark" viewBox="0 0 40 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="none" stroke="var(--fg)" stroke-width="2.5"/><circle cx="26" cy="14" r="12" fill="var(--ac)" fill-opacity=".9"/></svg><span>OVERLAP</span></a>
     <button class="burger" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav class="nav" id="nav">
       <ul><li><a href="product.html" aria-current="page">Product</a></li><li><a href="services.html">Services</a></li><li><a href="integrations.html">Integrations</a></li><li class="has-menu"><button class="menu-btn" aria-expanded="false">Labs</button><ul class="dropdown"><li><a href="labs/unsent-archive.html"><small>Lab 01</small>Unsent Archive</a></li><li><a href="labs/handoff-atlas.html"><small>Lab 02</small>Handoff Atlas</a></li><li><a href="labs/right-to-stay-quiet.html"><small>Lab 03</small>Right to Stay Quiet</a></li><li><a href="labs/group-project-lab.html"><small>Lab 04</small>Group Project Lab</a></li></ul></li><li><a href="community.html">Community</a></li><li><a href="privacy.html">Privacy Promise</a></li><li><a href="about.html">About</a></li></ul>
-      <a class="btn small" href="product.html">Try it →</a>
+      <a class="btn small" href="integrations.html">Try it →</a>
     </nav>
   </div>
 </header>
@@ -28,43 +28,72 @@
   <span class="label ac">Product</span>
   <h1 class="display d-l">Two spaces.<br><span class="ac">One choice.</span></h1>
   <div class="hero-foot">
-    <p class="lead">A private AI chat for thinking, a team map for finding each other, and one careful step in between.</p>
-    <div class="actions"><a class="btn" href="#">Download</a><a class="btn ghost" href="services.html">Request a team demo</a></div>
+    <p class="lead">A branch map inside the AI tools you already use, a team map for finding each other, and one careful step in between.</p>
+    <div class="actions"><a class="btn" href="integrations.html">Add to your tools</a><a class="btn ghost" href="services.html">Request a team demo</a></div>
   </div>
+</div></section>
+<section class="section" id="how"><div class="wrap">
+  <span class="label">How it works</span>
+  <h2 class="h2">Think in branches. Share what’s ready.<br>Talk to the right person.</h2>
+  <div class="diagram"><svg viewBox="0 0 1280 640" role="img" aria-labelledby="dgt dgd">
+<title id="dgt">How Overlap works</title>
+<desc id="dgd">On the left, your work in your AI tool as a branch tree. Two answers you chose pass through a gate labelled You choose and arrive on the team map. Everything else stays in your tool.</desc>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--ac)"/></marker></defs>
+<g font-family="Archivo, sans-serif">
+<rect x="1" y="1" width="600" height="600" fill="none" stroke="var(--ln)"/>
+<text x="24" y="40" font-size="13" letter-spacing="1.8" fill="var(--mu)">YOUR AI TOOL · BRANCHES</text>
+<rect x="740" y="1" width="539" height="600" fill="none" stroke="var(--ln)"/>
+<text x="764" y="40" font-size="13" letter-spacing="1.8" fill="var(--mu)">TEAM MAP</text>
+<rect x="668" y="1" width="4" height="600" fill="var(--ac)"/>
+<text x="670" y="632" font-size="13" letter-spacing="1.8" fill="var(--ac)" text-anchor="middle">YOU CHOOSE</text>
+<g stroke="var(--ln)" stroke-width="2" fill="none">
+<path d="M80 320H155V140H230"/><path d="M80 320H230"/><path d="M80 320H155V490H230"/>
+<path d="M238 140H400"/><path d="M238 490H315V440H400"/><path d="M238 490H315V550H400"/>
+</g>
+<circle cx="70" cy="320" r="11" fill="var(--bg)" stroke="var(--fg)" stroke-width="1.5"/>
+<text x="24" y="360" font-size="14" fill="var(--mu)"><tspan x="24">How should we</tspan><tspan x="24" dy="18">onboard designers?</tspan></text>
+<g fill="var(--bg)" stroke="var(--mu)" stroke-width="1.5"><circle cx="234" cy="140" r="8"/><circle cx="234" cy="320" r="8"/><circle cx="234" cy="490" r="8"/><circle cx="406" cy="550" r="9"/></g>
+<g font-size="13" fill="var(--mu)"><text x="204" y="168">Answer</text><text x="204" y="348">Answer (kept)</text><text x="204" y="518">Branch: remote?</text><text x="420" y="555">Weekly pair calls</text></g>
+<circle cx="406" cy="140" r="10" fill="var(--ac)"/><circle cx="406" cy="440" r="10" fill="var(--ac)"/>
+<g font-size="14" fill="var(--fg)"><text x="392" y="116">Pair each new hire with a buddy</text><text x="392" y="416">A short async welcome video</text></g>
+<g stroke="var(--ac)" stroke-width="2"><path d="M416 140H905" marker-end="url(#ar)"/><path d="M416 440H945" marker-end="url(#ar)"/></g>
+<circle cx="1015" cy="150" r="105" fill="var(--ac)"/>
+<text x="1015" y="148" font-size="20" font-weight="900" letter-spacing="2" fill="var(--on)" text-anchor="middle">ONBOARDING</text>
+<text x="1015" y="174" font-size="14" fill="var(--on)" text-anchor="middle">you + Maya</text>
+<circle cx="1030" cy="440" r="80" fill="none" stroke="var(--ac)" stroke-width="2"/>
+<text x="1030" y="438" font-size="16" font-weight="900" letter-spacing="2" fill="var(--fg)" text-anchor="middle">REMOTE WORK</text>
+<text x="1030" y="462" font-size="14" fill="var(--mu)" text-anchor="middle">you</text>
+<circle cx="1195" cy="300" r="52" fill="none" stroke="var(--ln)" stroke-width="1.5"/>
+<text x="1195" y="298" font-size="13" font-weight="900" letter-spacing="2" fill="var(--fg)" opacity=".7" text-anchor="middle">PRICING</text>
+<text x="1195" y="318" font-size="12" fill="var(--mu)" text-anchor="middle">Jun</text>
+</g></svg></div>
+  <p class="label ac mt-m">Nothing reaches your team until you choose it and approve the summary.</p>
 </div></section>
 <section class="section"><div class="wrap split">
   <div>
-    <span class="label ac">Space 01 · Private</span>
-    <h2 class="display d-m">My chats</h2>
-    <p class="body mt-s">Chat with AI like you always do. Overlap keeps every answer as a node, so your thinking stays visible to you.</p>
+    <span class="label ac">Space 01 · In your tool</span>
+    <h2 class="display d-m">Branch map</h2>
+    <p class="body mt-s">Keep working with AI in Claude Code, Codex, VS Code or Figma. Overlap adds a side panel that turns every answer into a node, so your thinking stays visible to you.</p>
     <div class="grid mt-m" style="gap:24px">
       <div class="step"><span class="num">01</span><h3>Every answer is a node</h3><p class="body small">Come back to any point without scrolling.</p></div>
       <div class="step"><span class="num">02</span><h3>Branch from anywhere</h3><p class="body small">Ask something new from an earlier answer.</p></div>
-      <div class="step"><span class="num">03</span><h3>Private tags</h3><p class="body small">Needs checking, half-baked, for later. Your tags never leave your chat.</p></div>
+      <div class="step"><span class="num">03</span><h3>Private tags</h3><p class="body small">Needs checking, half-baked, for later. Your tags never leave your tool.</p></div>
     </div>
   </div>
-  <div class="placeholder">Screen: My chats with the branch map rail</div>
+  <div class="placeholder">Screen: the Overlap panel inside VS Code</div>
 </div></section>
 <section class="section"><div class="wrap split">
   <div class="placeholder">Screen: Team map, bubbles grouped by topic</div>
   <div>
     <span class="label ac">Space 02 · Shared</span>
     <h2 class="display d-m">Team map</h2>
-    <p class="body mt-s">Shared pieces float in by topic. You see who is working on what, and who to ask. Never the chat behind it.</p>
+    <p class="body mt-s">Shared pieces float in by topic. You see who is working on what, and who to ask. Never the session behind it.</p>
     <div class="grid mt-m" style="gap:24px">
       <div class="step"><span class="num">01</span><h3>Bubbles by topic</h3><p class="body small">Search a topic, see who’s already on it.</p></div>
       <div class="step"><span class="num">02</span><h3>Who to ask</h3><p class="body small">An approved summary and a name. That’s all.</p></div>
       <div class="step"><span class="num">03</span><h3>No time stamps</h3><p class="body small">No activity, no counts, nothing to watch.</p></div>
     </div>
   </div>
-</div></section>
-<section class="section"><div class="wrap">
-  <span class="label">How it works</span>
-  <h2 class="display d-m">Six steps. One choice to share.</h2>
-  <div class="grid mt-m" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px">
-    <div class="card " style="min-height:170px"><span class="num">01</span><span class="display d-s">Chat</span></div><div class="card " style="min-height:170px"><span class="num">02</span><span class="display d-s">Branch</span></div><div class="card hot" style="min-height:170px"><span class="num">03</span><span class="display d-s">Choose</span></div><div class="card hot" style="min-height:170px"><span class="num">04</span><span class="display d-s">Approve</span></div><div class="card " style="min-height:170px"><span class="num">05</span><span class="display d-s">Bubble</span></div><div class="card " style="min-height:170px"><span class="num">06</span><span class="display d-s">Talk</span></div>
-  </div>
-  <p class="label ac mt-s">Nothing reaches your team without Choose and Approve.</p>
 </div></section>
 <section class="section"><div class="wrap">
   <span class="label">New in this version</span>
@@ -94,7 +123,7 @@
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Overlap. Your chats are only yours.</span>
+      <span>© 2026 Overlap. Your work is only yours.</span>
       <span>A speculative brand by Feifey · MFA Interaction Design, SVA</span>
     </div>
   </div>

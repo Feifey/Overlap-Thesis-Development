@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Overlap · Some things should stay</title>
-<meta name="description" content="A private AI chat with a team map. You choose what to share with your team.">
+<meta name="description" content="An add-on for the AI tools you already use. You choose what reaches your team.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;900&display=swap" rel="stylesheet">
@@ -14,11 +14,11 @@
 <body>
 <header class="site-header">
   <div class="wrap">
-    <a class="logo" href="index.html">OVERLAP</a>
+    <a class="logo" href="index.html" aria-label="Overlap home"><svg class="mark" viewBox="0 0 40 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="none" stroke="var(--fg)" stroke-width="2.5"/><circle cx="26" cy="14" r="12" fill="var(--ac)" fill-opacity=".9"/></svg><span>OVERLAP</span></a>
     <button class="burger" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav class="nav" id="nav">
       <ul><li><a href="product.html">Product</a></li><li><a href="services.html">Services</a></li><li><a href="integrations.html">Integrations</a></li><li class="has-menu"><button class="menu-btn" aria-expanded="false">Labs</button><ul class="dropdown"><li><a href="labs/unsent-archive.html"><small>Lab 01</small>Unsent Archive</a></li><li><a href="labs/handoff-atlas.html"><small>Lab 02</small>Handoff Atlas</a></li><li><a href="labs/right-to-stay-quiet.html"><small>Lab 03</small>Right to Stay Quiet</a></li><li><a href="labs/group-project-lab.html"><small>Lab 04</small>Group Project Lab</a></li></ul></li><li><a href="community.html">Community</a></li><li><a href="privacy.html">Privacy Promise</a></li><li><a href="about.html">About</a></li></ul>
-      <a class="btn small" href="product.html">Try it →</a>
+      <a class="btn small" href="integrations.html">Try it →</a>
     </nav>
   </div>
 </header>
@@ -27,8 +27,8 @@
 <section class="hero"><div class="wrap">
   <h1 class="display d-xl">Some things<br><span class="ac">should stay.</span></h1>
   <div class="hero-foot">
-    <p class="lead">Overlap is a private AI chat. You choose what to share with your team. Everything else stays in your chat.</p>
-    <div class="actions"><a class="btn" href="product.html">Start privately</a><a class="link" href="#how">See how it works ↓</a></div>
+    <p class="lead">Overlap adds a branch map and a share step to the AI tools you already use. Your work stays in your tool. Only what you choose reaches your team.</p>
+    <div class="actions"><a class="btn" href="integrations.html">Add to your tools</a><a class="link" href="#how">See how it works ↓</a></div>
   </div>
 </div></section>
 <section class="section" id="how"><div class="wrap">
@@ -36,11 +36,11 @@
   <h2 class="h2">Think in branches. Share what’s ready.<br>Talk to the right person.</h2>
   <div class="diagram"><svg viewBox="0 0 1280 640" role="img" aria-labelledby="dgt dgd">
 <title id="dgt">How Overlap works</title>
-<desc id="dgd">On the left, your chat as a branch tree. Two answers you chose pass through a gate labelled You choose and arrive on the team map. Everything else stays in your chat.</desc>
+<desc id="dgd">On the left, your work in your AI tool as a branch tree. Two answers you chose pass through a gate labelled You choose and arrive on the team map. Everything else stays in your tool.</desc>
 <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--ac)"/></marker></defs>
 <g font-family="Archivo, sans-serif">
 <rect x="1" y="1" width="600" height="600" fill="none" stroke="var(--ln)"/>
-<text x="24" y="40" font-size="13" letter-spacing="1.8" fill="var(--mu)">YOUR CHAT · BRANCHES</text>
+<text x="24" y="40" font-size="13" letter-spacing="1.8" fill="var(--mu)">YOUR AI TOOL · BRANCHES</text>
 <rect x="740" y="1" width="539" height="600" fill="none" stroke="var(--ln)"/>
 <text x="764" y="40" font-size="13" letter-spacing="1.8" fill="var(--mu)">TEAM MAP</text>
 <rect x="668" y="1" width="4" height="600" fill="var(--ac)"/>
@@ -68,8 +68,8 @@
 </g></svg></div>
   <div class="grid g3 mt-l">
     <div class="step"><span class="num">01</span><h3>Branch your thinking</h3><p class="body small">Every answer becomes a node. Try a new direction without losing the first one.</p></div>
-    <div class="step"><span class="num">02</span><h3>Share what’s ready</h3><p class="body small">Pick the answers that hold up and approve a short summary. Everything else stays in your chat.</p></div>
-    <div class="step"><span class="num">03</span><h3>Talk to the right person</h3><p class="body small">Your team sees topics and names, never your chat. The rest is a conversation.</p></div>
+    <div class="step"><span class="num">02</span><h3>Share what’s ready</h3><p class="body small">Pick the answers that hold up and approve a short summary. Everything else stays in your tool.</p></div>
+    <div class="step"><span class="num">03</span><h3>Talk to the right person</h3><p class="body small">Your team sees topics and names, never your session. The rest is a conversation.</p></div>
   </div>
 </div></section>
 <section class="section" id="labs"><div class="wrap">
@@ -78,7 +78,7 @@
   <div class="grid g4 mt-m"><a class="card" href="labs/unsent-archive.html"><span class="num">01</span><span class="display d-s">Unsent Archive</span><span class="body small">An anonymous public archive of the things people chose not to share at work, and why.</span><span class="status">Underway</span></a><a class="card" href="labs/handoff-atlas.html"><span class="num">02</span><span class="display d-s">Handoff Atlas</span><span class="body small">Handoffs didn’t start with AI. We study how nurses, line cooks and teachers pass work to each other.</span><span class="status">Pilot</span></a><a class="card" href="labs/right-to-stay-quiet.html"><span class="num">03</span><span class="display d-s">Right to Stay Quiet</span><span class="body small">An open workplace charter: no company may audit an employee’s private AI work.</span><span class="status">Experiment · may fail</span></a><a class="card" href="labs/group-project-lab.html"><span class="num">04</span><span class="display d-s">Group Project Lab</span><span class="body small">Students already bring AI into group projects. We help them talk about it honestly.</span><span class="status">Summer 2027</span></a></div>
 </div></section>
 <section class="section"><div class="wrap">
-  <h2 class="h2">We never see your chats. Not your manager, not us.</h2>
+  <h2 class="h2">We never see your AI sessions. Not your manager, not us.</h2>
   <p class="mt-s"><a class="link" href="privacy.html">Read our Privacy Promise →</a></p>
 </div></section>
 </main>
@@ -101,7 +101,7 @@
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Overlap. Your chats are only yours.</span>
+      <span>© 2026 Overlap. Your work is only yours.</span>
       <span>A speculative brand by Feifey · MFA Interaction Design, SVA</span>
     </div>
   </div>
